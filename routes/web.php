@@ -15,3 +15,8 @@ Route::get('/simulados', function () {
     $questoes = Questao::all();
     return view('simulados', compact('questoes'));
 });
+
+Route::get('/sajdlaskdj', function () {
+    $questoes = Questao::all();
+    return view('simulados', compact('questoes'));
+});
